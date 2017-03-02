@@ -1,0 +1,132 @@
+.StationChaveaux {
+    margin : 0;
+    padding : 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.StationVincennes {
+    margin : 0;
+    padding : 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.StationRobespierre {
+    margin : 0;
+    padding : 0;
+    height: 100vh;
+    width: 100%;
+}
+.stationPage {
+    height: 100vh;
+    width: 100%;
+    margin : 0;
+    padding : 0;
+    background-image: url('../App/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contentPage {
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nameStation {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 150px;
+    width: 100%;
+    color : linear-gradient(to left, #fceabb , #f8b500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : -webkit-linear-gradient(to left, #fceabb , #f8b500); /* Chrome 10-25, Safari 5.1-6 */
+    color : #fceabb; /* fallback for old browsers */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    margin : 20px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    color : rgba(0, 0, 0, 0.8);
+    background : none;
+    border     : 2px solid transparent;
+    outline    : none;
+    background-color : linear-gradient(to left, #fceabb , #f8b500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color : -webkit-linear-gradient(to left, #fceabb , #f8b500); /* Chrome 10-25, Safari 5.1-6 */
+    background-color : #fceabb; /* fallback for old browsers */
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: red;
+    color : white;
+}
+.list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.list h2 {
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding : 20px;
+    margin: 0;
+}
+.left {
+    display: flex;
+    max-height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.right {
+    display: flex;
+    max-height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.left p {
+    background-color: rgba(255, 255, 255, 0.6);
+    width : 200px;
+    margin : 5px;
+    padding: 20px;
+    color : black;
+}
+.right p {
+    background-color: rgba(255, 255, 255, 0.6);
+    width : 200px;
+    margin : 5px;
+    padding: 20px;
+    color : black;
+}
+.returnMenu {
+    position: absolute;
+    bottom : 0;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.returnToMenu {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.returnToMenu p {
+    color : orange;
+}
+.returnToMenu p:hover {
+    color :red;
+}
